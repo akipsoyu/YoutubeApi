@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3190CEB2-7276-499F-AAFA-176F285DA411}"
 EndProject
@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraStructure", "InfraStru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1CCA42BE-287E-4FE5-8664-7ECE528DF11B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Domain", "Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj", "{6E991730-D13B-4E37-878D-86302E9612FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Domain", "Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj", "{6E991730-D13B-4E37-878D-86302E9612FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Application", "Core\YoutubeApi.Application\YoutubeApi.Application.csproj", "{18EF7B36-61D2-40FC-B232-13BAC7316299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Application", "Core\YoutubeApi.Application\YoutubeApi.Application.csproj", "{18EF7B36-61D2-40FC-B232-13BAC7316299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Infrastructure", "InfraStructure\YoutubeApi.Infrastructure\YoutubeApi.Infrastructure.csproj", "{A5E925B6-F6F0-4406-B2D7-87217402EC95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Infrastructure", "InfraStructure\YoutubeApi.Infrastructure\YoutubeApi.Infrastructure.csproj", "{A5E925B6-F6F0-4406-B2D7-87217402EC95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Presentation", "InfraStructure\YoutubeApi.Presentation\YoutubeApi.Presentation.csproj", "{B0634328-BC64-4251-90C4-8C83C41C3F5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Presentation", "InfraStructure\YoutubeApi.Presentation\YoutubeApi.Presentation.csproj", "{B0634328-BC64-4251-90C4-8C83C41C3F5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Api", "Presentation\YoutubeApi.Api\YoutubeApi.Api.csproj", "{3C56FDD1-3E13-4699-A857-88B51BF4FEC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeApi.Api", "Presentation\YoutubeApi.Api\YoutubeApi.Api.csproj", "{3C56FDD1-3E13-4699-A857-88B51BF4FEC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,5 +55,8 @@ Global
 		{A5E925B6-F6F0-4406-B2D7-87217402EC95} = {4A792488-8A5F-4994-B8EE-7B2F90765144}
 		{B0634328-BC64-4251-90C4-8C83C41C3F5E} = {4A792488-8A5F-4994-B8EE-7B2F90765144}
 		{3C56FDD1-3E13-4699-A857-88B51BF4FEC7} = {1CCA42BE-287E-4FE5-8664-7ECE528DF11B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F858AC78-6A51-433E-A66F-D5F81D687AA5}
 	EndGlobalSection
 EndGlobal
